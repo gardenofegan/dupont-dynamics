@@ -1,0 +1,167 @@
+/* RESETS */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
+
+/* END OF RESETS */
+
+
+body {
+	color: #555;
+	background-color: #efefef;
+	font-family: Helvetica, Verdana, Arial;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.float {
+	width: 781px;
+	float: none;
+	margin: auto;
+}
+
+.header {
+	width: 100%;
+	height: 140px;
+	
+}
+
+
+.fullnav {
+	height: 60px;
+	line-height: 60px;
+	float: right;
+}
+
+.fullbody {
+	width: 100%;
+	border-top: 1px solid #9a9a9a;
+	border-right: 1px solid #ededed;
+	border-left: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	background-color: #ffffff;
+	padding: 10px 0px 25px 0px;
+	float: left;
+}
+
+.bodyfloat {
+	width: 750px;
+	float: none;
+	margin: auto;
+}
+
+
+h1 {
+	color: #7a1315;
+	font-size: 26px;
+	line-height: 48px;
+}
+
+h2 {
+	color: #555;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+p {
+	margin-top: 12px;
+}
+
+
+.leftside {
+	padding: 12px 0px 0px 0px;
+	width: 300px;
+	float: left;
+}
+
+.rightside {
+	padding: 12px 0px 0px 0px;
+	width: 400px;
+	float: right;
+}
+
+
+.centerblock {
+	width: 100%;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.quicklist {
+	margin-left: 18px;
+}
+
+
+
+#navnew {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}	
+	#navnew li {
+		float:left; 
+		margin-left: 45px;
+	}
+				
+		
+
+	#navnew li a {
+		display: block; 
+		padding: 0px; 
+		margin-top: 18px;
+		height: 30px;
+		line-height: 30px;
+		font-weight: bold;  
+		text-decoration: none; 
+		color: #555;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	#navnew li a:hover {
+		text-decoration: none;
+		color: #7a1315;
+		
+	}
+	
+	
+	#navnew li a.itsme {
+		display: block; 
+		padding: 0px; 
+		margin-top: 18px;
+		height: 30px;
+		line-height: 30px;
+		font-weight: bold;  
+		text-decoration: none; 
+		color: #7a1315;
+		font-size: 14px;
+		text-align: center;
+		background-image: url(images/downarrow.gif);
+		background-repeat: no-repeat;
+		background-position: bottom center;
+	}
+
+	#navnew li a.itsme:hover {
+		text-decoration: none;
+		color: #555;
+		
+	}
+	
+	
